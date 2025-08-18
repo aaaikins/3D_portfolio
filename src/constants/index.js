@@ -18,8 +18,8 @@ import {
   veritas,
   surestart,
   colby,
-  carrent,
-  jobit,
+  chattopdf,
+  resume,
   tripguide,
   threejs,
 } from "../assets";
@@ -201,7 +201,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: chattopdf,
     source_code_link: "https://chat-with-pdf-blond.vercel.app",
   },
   {
@@ -222,7 +222,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: resume,
     source_code_link: "https://main.dws2b1a2xvqhb.amplifyapp.com",
   },
   {

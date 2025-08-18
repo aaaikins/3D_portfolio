@@ -25,8 +25,8 @@ import veritas from "./company/veritas.png";
 import surestart from "./company/surestart.png";
 import colby from "./company/colby.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import chattopdf from "./chattopdf.png";
+import resume from "./resume.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -54,7 +54,7 @@ export {
   veritas,
   colby, 
   surestart,
-  carrent,
-  jobit,
+  chattopdf,
+  resume,
   tripguide,
 };
