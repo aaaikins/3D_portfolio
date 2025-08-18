@@ -15,10 +15,9 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  veritas,
+  surestart,
+  colby,
   carrent,
   jobit,
   tripguide,
@@ -35,8 +34,8 @@ export const navLinks = [
     title: "Projects",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "experience",
+    title: "Experience",
   },
   {
     id: "contact",
@@ -65,12 +64,8 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "Python",
     icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
   },
   {
     name: "JavaScript",
@@ -81,94 +76,81 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "Java",
+    icon: css,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Next JS",
     icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
+    name: "AWS",
     icon: threejs,
   },
   {
-    name: "git",
+    name: "PostgreSQL",
     icon: git,
   },
   {
-    name: "figma",
+    name: "TensorFlow",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Flask",
     icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer",
+    company_name: "Veritas Foundation Inc.",
+    icon: veritas,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led development of the organization's official website using Next.js and TypeScript and deployed on AWS amplify.",
+      "Designed a scalable RESTful API with Express.js and hosted on AWS lambda together with Amazon API Gateway.",
+      "Integrated an AI-powered chatbot using Amazon Bedrock, automating common inquiries and improving response times and user engagement."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Teaching Assistant - CS152",
+    company_name: "Colby College",
+    icon: colby,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "February 2024 – December 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Assisted 50+ students in programming concepts in Python, leading to a 30% improvement in project scores during the Spring 2024 semester compared to previous semesters.",
+      "Provided hands-on technical support during computer lab sessions, debugging code and resolving software issues to enhance learning efficiency."
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "AI Engineer Intern",
+    company_name: "SureStart AI",
+    icon: surestart,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "June 2024 - August 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led a 3-person team to design Passport Pal, an AI travel assistant, utilizing OpenAI, React.js, and FastAPI.",
+      "Engineered a real-time notification system using AWS SNS to send personalized and timely travel reminders.",
+      "Implemented user authentication with Clerk, deployed frontend on Amazon Amplify, hosted serverless backend on AWS Lambda."
     ],
   },
 ];
@@ -176,93 +158,93 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Aikins demonstrated exceptional technical skills and leadership while working on Passport Pal. His ability to coordinate team efforts and deliver results was impressive.",
+    name: "SureStart AI",
+    designation: "Program Lead",
+    company: "SureStart",
+    image: "https://randomuser.me/api/portraits/men/1.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "As a teaching assistant, Aikins showed remarkable dedication to helping students succeed. His technical support improved our lab efficiency significantly.",
+    name: "CS Department",
+    designation: "Professor",
+    company: "Colby College",
+    image: "https://randomuser.me/api/portraits/women/2.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Aikins delivered exceptional Experience on our website and API development. His AWS expertise and problem-solving skills were invaluable to our organization.",
+    name: "Project Manager",
+    designation: "PM",
+    company: "Veritas Foundation",
+    image: "https://randomuser.me/api/portraits/men/3.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AI-Powered PDF Assistant",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A SaaS application enabling users to upload, view, and chat with PDF documents using Next.js with TypeScript. Built RAG pipeline using LangChain, Pinecone vector database and OpenAI for accurate document answers.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "openai",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://chat-with-pdf-blond.vercel.app",
+  },
+  {
+    name: "AI Resume Analyzer",
+    description:
+      "An AI resume scoring tool using Amazon Comprehend and AWS serverless stack (S3, Lambda, API Gateway). Automated CI/CD pipeline using AWS Amplify with Clerk authentication and dynamic React visualizations.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "aws",
+        color: "green-text-gradient",
+      },
+      {
+        name: "amplify",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://main.dws2b1a2xvqhb.amplifyapp.com",
+  },
+  {
+    name: "TrackFunds",
+    description:
+      "A responsive transaction tracker built with MongoDB, Express.js, React, and Node.js, supporting full CRUD operations. Features real-time updates and schema validation for secure financial data storage.",
+    tags: [
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/aaaikins/track-funds",
   },
 ];
 
